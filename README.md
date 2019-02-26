@@ -1,2 +1,3 @@
-# dat110-project2-chapp
-ChApp client application for project 2 
+DAT110 Oblig 2
+
+Gruppemedlemmer: Arne Kvaleberg, Sivert Lunde, Anders Kvamsøe
