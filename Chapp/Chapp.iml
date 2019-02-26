@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="project2" />
+    <orderEntry type="library" name="gson-2.8.5" level="project" />
   </component>
 </module>
