@@ -71,6 +71,7 @@ public class Controller {
 	
 		if (isconnected) {
 			client.createTopic(topic);
+			System.out.println("TEST");
 		}
 		
 	}
