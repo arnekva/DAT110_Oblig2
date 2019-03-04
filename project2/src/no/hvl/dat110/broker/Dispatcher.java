@@ -96,8 +96,9 @@ public class Dispatcher extends Stopable {
 
 		ClientSession session = storage.getSession(user);
 
-		offlineMessages.forEach(x -> session.send(x));
-
+		if(offlineMessages != null) {
+			offlineMessages.forEach(x -> session.send(x));
+		}
 	}
 
 	// called by dispatch upon receiving a disconnect message 
