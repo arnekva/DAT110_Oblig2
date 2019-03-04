@@ -12,13 +12,11 @@ public class TemperatureDevice {
 		int port = BROKER_DEFAULTPORT;
 		
 		TemperatureSensor sn = new TemperatureSensor();
-		
 
 		String user = "temp device";
 		Client client = new Client(user, "localhost", port);
 
 		client.connect();
-
 
 		for (int i = 0; i < COUNT; i++){
 		    String temp = Integer.toString(sn.read());
