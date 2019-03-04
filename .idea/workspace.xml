@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4d41538-c445-4bc8-87e9-6de291618132" name="Default Changelist" comment="Prosjekt" />
+    <list default="true" id="a4d41538-c445-4bc8-87e9-6de291618132" name="Default Changelist" comment="Prosjekt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chapp/no/hvl/dat110/chapp/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapp/no/hvl/dat110/chapp/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/broker/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/broker/Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/broker/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/broker/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/iotsystem/DisplayDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/iotsystem/DisplayDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/iotsystem/TemperatureDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/iotsystem/TemperatureDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/DeleteTopicMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/DeleteTopicMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/PublishMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/PublishMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/SubscribeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/SubscribeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/UnsubscribeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messages/UnsubscribeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/MessagingClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/MessagingClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/MessagingServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/MessagingServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/TransportMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/no/hvl/dat110/messagetransport/TransportMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/CreateTopicMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/CreateTopicMsg.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,31 +29,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Chapp.java">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/TemperatureSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/storage/tests/TestStorage.java">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/MessageUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="-10">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/ClientSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/Dispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/DisplayDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/CreateTopicMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/MessageUtils.java">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1101">
+              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/BrokerServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/TemperatureDevice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -49,17 +129,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Controller.java" />
         <option value="$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Chapp.java" />
         <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/MessageUtils.java" />
+        <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/TemperatureDevice.java" />
+        <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/DisplayDevice.java" />
+        <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/Dispatcher.java" />
+        <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/CreateTopicMsg.java" />
+        <option value="$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Controller.java" />
+        <option value="$PROJECT_DIR$/project2/src/no/hvl/dat110/client/Client.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="42" />
-    <option name="width" value="1260" />
-    <option name="height" value="682" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -67,8 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,8 +198,21 @@
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dat110" type="462c0819:PsiDirectoryNode" />
-              <item name="broker" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT110_Oblig2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT110_Oblig2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="iotsystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DAT110_Oblig2" type="b2602c69:ProjectViewProjectNode" />
@@ -141,7 +238,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551188708165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551708431861" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/gson-2.8.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -162,7 +259,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Chapp">
+    <configuration name="BrokerServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.broker.BrokerServer" />
+      <module name="project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.broker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Chapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.chapp.Chapp" />
       <module name="Chapp" />
@@ -179,6 +289,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Chapp" />
+        <item itemvalue="Application.BrokerServer" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +304,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551184710110</updated>
       <workItem from="1551184713335" duration="2136000" />
+      <workItem from="1551707380445" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Prosjekt">
       <created>1551184882155</created>
@@ -201,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551184882155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed commented code">
+      <created>1551707570300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551707570300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2403000" />
+    <option name="totallyTimeSpent" value="3441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,10 +336,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1406" height="856" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -229,17 +348,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32980132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.15923567" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -256,7 +375,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prosjekt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prosjekt" />
+    <MESSAGE value="Removed commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed commented code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/processing/tests/Test1ConnectDisconnect.java">
@@ -266,22 +386,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project2/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/PublishMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Chapp.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -297,13 +403,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messagetransport/TransportMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messagetransport/MessagingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messagetransport/MessagingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messagetransport/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/UnsubscribeMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/SubscribeMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/PublishMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/common/Stopable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/ConnectMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/DeleteTopicMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/DisconnectMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/MessageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="-10">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/TemperatureDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/TemperatureSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/BrokerServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapp/src/no/hvl/dat110/chapp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/messages/CreateTopicMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/iotsystem/DisplayDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/broker/ClientSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/src/no/hvl/dat110/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
         </state>
       </provider>
     </entry>
