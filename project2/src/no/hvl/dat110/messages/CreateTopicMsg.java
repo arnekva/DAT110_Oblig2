@@ -6,6 +6,7 @@ public class CreateTopicMsg extends Message {
     String topic;
 
     public CreateTopicMsg(String user, String topic){
+
         super(MessageType.CREATETOPIC, user);
         this.topic = topic;
     }
