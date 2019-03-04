@@ -1,5 +1,6 @@
 package no.hvl.dat110.broker;
 
+import java.util.ArrayList;
 import java.util.Set;
 import java.util.Collection;
 
@@ -91,6 +92,12 @@ public class Dispatcher extends Stopable {
 
 		storage.addClientSession(user, connection);
 
+		ArrayList<Message> offlineMessages = storage.backOnline(user);
+
+		ClientSession session = storage.getSession(user);
+
+		offlineMessages.forEach(x -> session.send(x));
+
 	}
 
 	// called by dispatch upon receiving a disconnect message 
@@ -151,7 +158,11 @@ public class Dispatcher extends Stopable {
 		Set<String> subscribers = storage.getSubscribers(msg.getTopic());
 		for (String s : subscribers){
 			ClientSession session = storage.getSession(s);
-			session.send(msg);
+			if (session != null){
+				session.send(msg);
+			} else {
+				storage.addOfflineMessage(s, msg);
+			}
 		}
 //		throw new RuntimeException("not yet implemented");
 		

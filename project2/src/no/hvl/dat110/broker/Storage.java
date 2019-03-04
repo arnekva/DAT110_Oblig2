@@ -1,21 +1,22 @@
 package no.hvl.dat110.broker;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 import no.hvl.dat110.common.Logger;
+import no.hvl.dat110.messages.Message;
 import no.hvl.dat110.messagetransport.Connection;
 
 public class Storage {
 
 	protected ConcurrentHashMap<String, Set<String>> subscriptions;
 	protected ConcurrentHashMap<String, ClientSession> clients;
+	protected ConcurrentHashMap<String, ArrayList<Message>> offlineStorage;
 
 	public Storage() {
 		subscriptions = new ConcurrentHashMap<String, Set<String>>();
 		clients = new ConcurrentHashMap<String, ClientSession>();
+		offlineStorage = new ConcurrentHashMap<String, ArrayList<Message>>();
 	}
 
 	public Collection<ClientSession> getSessions() {
@@ -27,6 +28,19 @@ public class Storage {
 		return subscriptions.keySet();
 
 	}
+
+	public void addOfflineMessage(String user, Message msg){
+		ArrayList<Message> newList = offlineStorage.get(user);
+		newList.add(msg);
+		offlineStorage.put(user, newList);
+	}
+
+	public ArrayList<Message> backOnline(String user){
+		ArrayList<Message> returnList = offlineStorage.get(user);
+		offlineStorage.remove(user);
+		return returnList;
+	}
+
 
 	public ClientSession getSession(String user) {
 
@@ -55,6 +69,8 @@ public class Storage {
 
 		// TODO: remove client session for user from the storage
 		clients.remove(user);
+		ArrayList<Message> offlineList = new ArrayList<Message>();
+		offlineStorage.put(user, offlineList);
 		//throw new RuntimeException("not yet implemented");
 		
 	}
