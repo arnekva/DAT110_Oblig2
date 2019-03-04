@@ -99,7 +99,7 @@ public class Controller {
 	public void publish(String topic, String message) {
 	
 		if (isconnected) {
-			client.publish(topic, message);
+			client.publish(topic, " til [" + topic + "]: " + message);
 		}
 		
 	}
