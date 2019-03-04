@@ -14,7 +14,6 @@ public class DisplayDevice {
 		
 		System.out.println("Display starting ...");
 		
-		// TODO - START
 
 		Client client = new Client("Display device", "localhost", 8080);
 		client.connect();
@@ -24,7 +23,6 @@ public class DisplayDevice {
 			Message msg = client.receive();
 			System.out.println(msg);
 		}
-		// TODO - END
 		client.disconnect();
 		System.out.println("Display stopping ... ");
 		
