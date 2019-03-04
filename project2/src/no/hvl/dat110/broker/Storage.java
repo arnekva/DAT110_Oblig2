@@ -57,7 +57,6 @@ public class Storage {
 
 	public void addClientSession(String user, Connection connection) {
 
-		// TODO: add corresponding client session to the storage
 		ClientSession session = new ClientSession(user, connection);
 		clients.put(user, session);
 
@@ -67,7 +66,6 @@ public class Storage {
 
 	public void removeClientSession(String user) {
 
-		// TODO: remove client session for user from the storage
 		clients.remove(user);
 		ArrayList<Message> offlineList = new ArrayList<Message>();
 		offlineStorage.put(user, offlineList);
@@ -77,7 +75,6 @@ public class Storage {
 
 	public void createTopic(String topic) {
 
-		// TODO: create topic in the storage
 		if (!subscriptions.contains(topic)) {
 			Set<String> subscribers = new HashSet<String>();
 			subscriptions.put(topic, subscribers);
@@ -89,7 +86,6 @@ public class Storage {
 
 	public void deleteTopic(String topic) {
 
-		// TODO: delete topic from the storage
 		subscriptions.remove(topic);
 //		throw new RuntimeException("not yet implemented");
 		
@@ -97,7 +93,6 @@ public class Storage {
 
 	public void addSubscriber(String user, String topic) {
 
-		// TODO: add the user as subscriber to the topic
 		Set<String> newSet = getSubscribers(topic);
 		newSet.add(user);
 		subscriptions.put(topic, newSet);
@@ -107,7 +102,6 @@ public class Storage {
 
 	public void removeSubscriber(String user, String topic) {
 
-		// TODO: remove the user as subscriber to the topic
 		Set<String> newSet = getSubscribers(topic);
 		newSet.remove(user);
 		subscriptions.put(topic, newSet);

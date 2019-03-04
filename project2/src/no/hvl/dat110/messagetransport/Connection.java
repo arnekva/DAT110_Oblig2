@@ -32,7 +32,6 @@ public class Connection {
 
 	public void send(TransportMessage message) {
 
-		// TODO 
 		// encapsulate the data contained in the message and write to the output stream
 		
 		try {
@@ -71,7 +70,6 @@ public class Connection {
 		TransportMessage message;
 		byte[] recvbuf;
 		
-		// TODO
 		// read a segment from the input stream and decapsulate into message
 		
 		recvbuf = new byte[MessageConfig.SEGMENTSIZE];

@@ -13,7 +13,6 @@ public class TemperatureDevice {
 		
 		TemperatureSensor sn = new TemperatureSensor();
 		
-		// TODO - start
 
 		String user = "temp device";
 		Client client = new Client(user, "localhost", port);
@@ -33,8 +32,7 @@ public class TemperatureDevice {
         }
 		client.disconnect();
 
-		// TODO - end
-		
+
 		System.out.println("Temperature device stopping ... ");
 
 		
